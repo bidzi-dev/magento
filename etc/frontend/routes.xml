@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Bidzi_Cards routes definition
+ *
+ * @category    Bidzi
+ * @package     Bidzi_Cards
+ * @author      Federico Balderas
+ * @copyright   Bidzi (http://bidzi.mx)
+ * @license     http://www.apache.org/licenses/LICENSE-2.0  Apache License Version 2.0
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="bidzi" frontName="bidzi">
+            <module name="Bidzi_Cards" />
+        </route>
+    </router>
+</config>

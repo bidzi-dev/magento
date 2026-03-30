@@ -1,0 +1,34 @@
+{
+  "name": "bidzi/magento",
+  "description": "Bidzi module for Magento 2",
+  "type": "magento2-module",
+  "minimum-stability": "stable",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Bidzi",
+      "homepage": "https://docs.bidzi.com/docs/magento",
+      "email": "support@bidzi.mx"
+    },
+    {
+      "name": "Federico Balderas",
+      "homepage": "https://bidzi.mx",
+      "email": "federico.balderas@bidzi.mx"
+    }
+  ],
+  "require": {
+    "php": ">=7.3.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Bidzi\\Cards\\": ""
+    }
+  }
+}
